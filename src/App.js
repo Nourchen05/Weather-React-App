@@ -12,7 +12,7 @@ function App() {
 	const [loading, setLoading] = useState(true);
 	const [weather, setWeather] = useState([]);
 	const [weatherforecast, setForecast] = useState();
-	const [city, setCity] = useState("Eldoret");
+	const [city, setCity] = useState("Tunisia");
 	const [isError, setError] = useState(false);
 	const [delay, setDelay] = useState(1000);
 
