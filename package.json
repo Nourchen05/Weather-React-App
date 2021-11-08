@@ -51,5 +51,8 @@
 		"hooks": {
 			"pre-commit": "pretty-quick --stagged"
 		}
+	},
+	"optionalDependencies": {
+		"fsevents": "^2.3.2"
 	}
 }
