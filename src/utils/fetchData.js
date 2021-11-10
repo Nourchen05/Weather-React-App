@@ -1,4 +1,4 @@
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = "7644307db41b49d38c526961f0a060b2";
 
 export const getCityWeather = (city) => {
 	return fetch(
