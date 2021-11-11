@@ -1,8 +1,14 @@
-# WeatherHero
+# WeatherApp
 
 A react weather app that displays weather infromation from OpenWeatherMap API
 
 React JS, SaaS, OpenWeatherMap API
+
+
+
+https://user-images.githubusercontent.com/76560618/141368492-afe02ffd-3721-47ca-af34-ceb4f14f8a9d.mp4
+
+
 
 ## Getting started
 
