@@ -29,5 +29,5 @@ As a root user, run these commands to see the application:
   
   #docker run -d -p 8080:3000 nourchen/weather-react-app:2
   
-Got to your browser and write http://localhost:8080/
+Go to your browser and write http://localhost:8080/
   
