@@ -14,7 +14,7 @@ function App() {
 	const [weatherforecast, setForecast] = useState();
 	const [city, setCity] = useState("Tunisia");
 	const [isError, setError] = useState(false);
-	const [delay, setDelay] = useState(1000);
+	//const [delay, setDelay] = useState(1000);
 
 	useEffect(() => {
 		if (!city) {
@@ -48,7 +48,7 @@ function App() {
 			});
 	}, [city, isError]);
 
-	const debouncedSearchTerm = useDebounce((value) => setCity(value), delay);
+	const debouncedSearchTerm = useDebounce((value) => setCity(value), 2000);
 
 	const onInputChange = (value) => debouncedSearchTerm(value);
 
