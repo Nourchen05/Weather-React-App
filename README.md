@@ -14,8 +14,8 @@ https://user-images.githubusercontent.com/76560618/141368492-afe02ffd-3721-47ca-
 
 Clone the project into your local machine then In the project directory, you can run:
 
-1. `npm install` then
-2. Run `npm start`
+1. $npm install
+2. $npm start
 
 ## Resources
 
